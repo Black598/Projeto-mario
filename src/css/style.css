@@ -1,9 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
-*{
-    margin: 0;
-}
 
-p{
+body{
 
     font-family:"poppins";
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 65px;
+}
+.menu {
+    height: 100%;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cabecalho nav li a {
+
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.cabecalho nav li a:hover {
+
+    background-color: #d5011d;
+
+}
+
+.container {
+
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+   
+}
+
+.container .imagem-titulo {
+
+    max-width: 500px;
+    
+
+}
+.container .descricao {
+
+    margin: 30px 0;
+    color:#a8adb7;
+    width: 85%;
+    font-size: 18px;
+}
+
+.container .botao-trailer{
+    background-color: #ff0021;
+    color: #ffffff;
+    padding: 15px;
+    font:18px bold;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+    
+}
+
+.botao-trailer:hover {
+
+    transform: scale(1.1);
+}
+
+
+.fundo-video{
+
+   
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.video {
+
+   
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.fundo-video::after {
+    content:"";
+    background-color: #d5011d;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+   background: linear-gradient(90deg, #040203 0%, rgba(0, 0, 0, 0.85) 49%, #040203 100%);
 }
