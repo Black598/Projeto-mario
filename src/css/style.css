@@ -71,7 +71,7 @@ body{
     padding: 15px;
     font:18px bold;
     border-radius: 15px;
-    cursor: pointer;
+    cursor:pointer;
     border: none;
     text-transform: uppercase;
     transition: 0.5s all ease-in-out;
@@ -92,6 +92,8 @@ body{
     overflow: hidden;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
    
 }
 
@@ -112,4 +114,53 @@ body{
     top: 0;
     left: 0;
    background: linear-gradient(90deg, #040203 0%, rgba(0, 0, 0, 0.85) 49%, #040203 100%);
+}
+
+.modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,52,50,0.749);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.conteudo-modal{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 5px;
+
+
+}
+
+.fechar-modal{
+
+    background-color: #ffffff;
+    color: #f03a17;
+    font:20px bold;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid black;
+    
+}
+
+.modal iframe{
+
+    border-width: 0;
+    width: 640px;
+    height: 360px;
+}
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
 }
