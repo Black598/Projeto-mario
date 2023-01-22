@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
 
 body{
-
     font-family:"poppins";
 }
 
@@ -21,11 +20,9 @@ body{
     display: flex ;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .cabecalho nav li a {
-
     font-weight: bold;
     color: #ffffff;
     font-size: 25px;
@@ -35,30 +32,22 @@ body{
 }
 
 .cabecalho nav li a:hover {
-
     background-color: #d5011d;
-
 }
 
 .container {
-
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     height: calc(100vh - 132px);
     padding: 0 30px 30px;
-   
 }
 
 .container .imagem-titulo {
-
     max-width: 500px;
-    
-
 }
 .container .descricao {
-
     margin: 30px 0;
     color:#a8adb7;
     width: 85%;
@@ -75,7 +64,6 @@ body{
     border: none;
     text-transform: uppercase;
     transition: 0.5s all ease-in-out;
-    
 }
 
 .botao-trailer:hover {
@@ -83,10 +71,7 @@ body{
     transform: scale(1.1);
 }
 
-
 .fundo-video{
-
-   
     position: absolute;
     z-index: -1;
     overflow: hidden;
@@ -94,15 +79,11 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-   
 }
 
 .video {
-
-   
     height: 100vh;
     width: 100%;
-    
 }
 
 .fundo-video::after {
@@ -136,12 +117,9 @@ body{
     height: 100vh;
     border-radius: 5px;
     gap: 5px;
-
-
 }
 
 .fechar-modal{
-
     background-color: #ffffff;
     color: #f03a17;
     font:20px bold;
@@ -150,11 +128,9 @@ body{
     cursor: pointer;
     border-radius: 15px;
     border: 1px solid black;
-    
 }
 
 .modal iframe{
-
     border-width: 0;
     width: 640px;
     height: 360px;

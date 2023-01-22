@@ -10,12 +10,10 @@ function alternarModal() {
 
 }
 
-
 botaoTrailer.addEventListener("click", ()=> {
 
     alternarModal();
     video.setAttribute("src", linkDoVideo);
-
 
 })
 
