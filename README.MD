@@ -15,7 +15,7 @@ Projeto com intuito de estudo.
 <br>
 
 <p align="center">
-  <img alt="Projeto Mario" src=".github/preview.jpg" width="100%">
+  <img alt="Projeto Mario" src="https://cdn.discordapp.com/attachments/512756222563450888/1066816435684376606/Preview.jpg" src=".github/Preview.jpg" width="100%">
 </p>
 
 ## 👩🏾‍💻 Tecnologias
